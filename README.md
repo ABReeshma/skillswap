@@ -82,7 +82,7 @@ git clone https://github.com/ABReeshma/skillswap.git
 cd skillswap
 
 ### 2 Configure Database
-```bash
+
 Update application.properties:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/skillswap
@@ -90,7 +90,7 @@ spring.datasource.username=your_username
 spring.datasource.password=your_password
 
 ### 3 Run Application
-```bash
+
 mvn spring-boot:run
 
 
