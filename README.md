@@ -63,7 +63,7 @@ This repository contains the backend implementation built using Spring Boot with
 ---
 
 
-## 🗂 Project Structure
+##  Project Structure
 src/main/java/com/skillswap/skillswap
 ├── config → Security & password configuration
 ├── controller → REST controllers
