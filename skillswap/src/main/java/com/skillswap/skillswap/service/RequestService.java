@@ -153,7 +153,7 @@ public class RequestService {
             Skill skill = skillRepository.findById(req.getSkillId()).orElse(null);
 
             return new MentorStudentResponse(
-                    req.getId(),                                  // ✅ ID
+                    req.getId(),
                     student != null ? student.getName() : "Unknown Student",
                     skill != null ? skill.getTitle() : "Unknown Skill",
                     req.getStatus()
@@ -198,9 +198,9 @@ public class RequestService {
                     .orElseThrow(() -> new RuntimeException("Skill not found"));
 
             return new MentorStudentResponse(
-                    req.getId(),          // ✅ request id
-                    student.getName(),    // ✅ student name
-                    skill.getTitle(),     // ✅ skill title
+                    req.getId(),
+                    student.getName(),
+                    skill.getTitle(),
                     req.getStatus()
             );
 
